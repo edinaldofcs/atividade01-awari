@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+img{
+    max-width: 300px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.card{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.card__container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-shadow: 1px 1px 1px 1px #888;   
+    padding: 10px; 
+    gap: 5px;
+}
